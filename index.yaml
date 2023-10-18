@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  kubestellar-chart:
+  - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2023-10-18T14:31:09.730247792-04:00"
+    description: A Helm chart for KubeStellar Core deployment as a service
+    digest: 49e049fa5eea2036ed4f73e002d72eeae30ef35bc037cf7e75577f3141a2c5db
+    icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
+    name: kubestellar-chart
+    type: application
+    urls:
+    - https://https:/kubestellar.github.io/helm/charts/kubestellar-chart-1.tgz
+    version: "1"
+generated: "2023-10-18T14:31:09.727185806-04:00"
