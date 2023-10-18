@@ -24,5 +24,6 @@ helm install kubestellar-core kubestellar/kubestellar-core --set clusterType=Ope
 
 For Kind and other Kubernetes distributions
 ```
+kubectl create ns kubestellar
 helm install kubestellar-core kubestellar/kubestellar-core --namespace=kubestellar
 ```
