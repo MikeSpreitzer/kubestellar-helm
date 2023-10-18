@@ -1,4 +1,4 @@
-# Helm Example Repository
+# KubeStellar Helm Repository
 
 Hello world!  I'm a Helm repository for KubeStellar charts.
 
@@ -10,8 +10,14 @@ Add this repository to Helm.
 helm repo add kubestellar https://helm.kubestellar.io
 ```
 
-Install an example.
+## Deploy KubeStellar Core
 
+For OpenShift
 ```
-helm install kubestellar kubestellar-core --namespace kubestellar
+helm install kubestellar-core kubestellar/kubestellar --set clusterType=OpenShift --namespace=kubestellar
+```
+
+For Kind and other Kubernetes distributions
+```
+helm install kubestellar-core kubestellar/kubestellar --namespace=kubestellar
 ```
