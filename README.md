@@ -1,6 +1,6 @@
 # KubeStellar Helm Repository
 
-Hello world!  I'm a Helm repository for KubeStellar charts.
+Hello world!  I'm a Helm repository for KubeStellar charts.  We currently support v0.8.0 and newer versions of our KubeStellar Core components.
 
 ## Get started
 
