@@ -13,5 +13,5 @@ helm repo add kubestellar https://helm.kubestellar.io
 Install an example.
 
 ```
-helm install kubestellar kubestellar-core
+helm install kubestellar kubestellar-core --namespace kubestellar
 ```
