@@ -10,6 +10,11 @@ Add this repository to Helm.
 helm repo add kubestellar https://helm.kubestellar.io
 ```
 
+Remember to update your local copy of our repo if its been a while since you have used it
+```
+helm update
+```
+
 ## Deploy KubeStellar Core
 
 For OpenShift
