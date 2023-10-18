@@ -10,6 +10,6 @@ entries:
     name: kubestellar-chart
     type: application
     urls:
-    - https://github.com/kubestellar/helm/tree/main/charts/kubestellar-chart-1.tgz
+    - https://kubestellar.io/charts/kubestellar-chart-1.tgz
     version: "1"
 generated: "2023-10-18T14:31:09.727185806-04:00"
