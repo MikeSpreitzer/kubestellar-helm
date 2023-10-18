@@ -1,6 +1,6 @@
 # Helm Example Repository
 
-Ahoy world!  I'm a Helm repository for KubeStellar charts.
+Hello world!  I'm a Helm repository for KubeStellar charts.
 
 ## Get started
 
