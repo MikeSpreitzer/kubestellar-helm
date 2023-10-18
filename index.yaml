@@ -3,7 +3,7 @@ entries:
   kubestellar-core:
     - created: 2023-10-18T12:00:00Z
       description: Deploy KubeStellar Core
-      # digest: 99c76e403d752c84ead610644d4b1c2f2b453a74b921f422b9dcb8a7c8b559cd
+      digest: 11fe90378273cf0585e51f755682bdd6e45dc92dc26fa5975dacdb05446f7ab9
       home: https://kubestellar.io
       name: kubestellar
       urls:
@@ -13,7 +13,7 @@ entries:
   #   - created: 2023-10-18T12:00:00Z
   #     description: Deploy KubeFlex
   #     digest: aaff4545f79d8b2913a10cb400ebb6fa9c77fe813287afbacf1a0b897cdffffff
-  #     home: https://kubestellar.io/helm
+  #     home: https://kubestellar.io
   #     name: kubeflex
   #     urls:
   #     - https://github.com/kubestellar/kubeflex/tscharts/kubeflex-0.1.0.tgz
