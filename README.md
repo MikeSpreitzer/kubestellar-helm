@@ -19,10 +19,10 @@ helm update
 
 For OpenShift
 ```
-helm install kubestellar-core kubestellar/kubestellar --set clusterType=OpenShift --namespace=kubestellar
+helm install kubestellar-core kubestellar/kubestellar-core --set clusterType=OpenShift --namespace=kubestellar
 ```
 
 For Kind and other Kubernetes distributions
 ```
-helm install kubestellar-core kubestellar/kubestellar --namespace=kubestellar
+helm install kubestellar-core kubestellar/kubestellar-core --namespace=kubestellar
 ```
