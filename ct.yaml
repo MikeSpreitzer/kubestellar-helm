@@ -1,4 +1,0 @@
-# See https://github.com/kubestellar/chart-testing#configuration
-remote: origin
-chart-dirs:
-  - charts
