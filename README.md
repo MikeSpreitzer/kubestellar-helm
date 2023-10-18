@@ -7,11 +7,11 @@ Hello world!  I'm a Helm repository for KubeStellar charts.
 Add this repository to Helm.
 
 ```
-helm repo add examples https://github.com/kubestellar/helm
+helm repo add kubestellar https://helm.kubestellar.io
 ```
 
 Install an example.
 
 ```
-helm install kubestellar helm/kubestellar-core
+helm install kubestellar kubestellar-core
 ```
