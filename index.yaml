@@ -4,7 +4,7 @@ entries:
     - created: 2023-10-18T12:00:00Z
       description: Deploy KubeStellar Core
       # digest: 99c76e403d752c84ead610644d4b1c2f2b453a74b921f422b9dcb8a7c8b559cd
-      home: https://helm.sh/helm
+      home: https://kubestellar.io/helm
       name: kubestellar
       # sources:
       # - https://github.com/helm/helm
@@ -15,7 +15,7 @@ entries:
   #   - created: 2023-10-18T12:00:00Z
   #     description: Deploy KubeFlex
   #     digest: aaff4545f79d8b2913a10cb400ebb6fa9c77fe813287afbacf1a0b897cdffffff
-  #     home: https://helm.sh/helm
+  #     home: https://kubestellar.io/helm
   #     name: kubeflex
   #     sources:
   #     - https://github.com/helm/charts
