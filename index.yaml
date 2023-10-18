@@ -4,7 +4,7 @@ entries:
     - created: 2023-10-18T12:00:00Z
       description: Deploy KubeStellar Core
       # digest: 99c76e403d752c84ead610644d4b1c2f2b453a74b921f422b9dcb8a7c8b559cd
-      home: https://kubestellar.io/helm
+      home: https://kubestellar.io
       name: kubestellar
       urls:
       - https://github.com/kubestellar/kubestellar/tree/release-0.8/core-helm-chart/kubestellar-core-0.8.0.tgz
