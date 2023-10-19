@@ -19,7 +19,7 @@ helm repo update
 
 For OpenShift
 ```
-oc project kubestellar
+oc new-project kubestellar
 helm install kubestellar-core kubestellar/kubestellar-core --set clusterType=OpenShift --namespace=kubestellar
 ```
 
