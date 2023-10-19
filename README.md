@@ -12,13 +12,14 @@ helm repo add kubestellar https://helm.kubestellar.io
 
 Remember to update your local copy of our repo if its been a while since you have used it
 ```
-helm update
+helm repo update
 ```
 
 ## Deploy KubeStellar Core
 
 For OpenShift
 ```
+oc project kubestellar
 helm install kubestellar-core kubestellar/kubestellar-core --set clusterType=OpenShift --namespace=kubestellar
 ```
 
@@ -27,3 +28,5 @@ For Kind and other Kubernetes distributions
 kubectl create ns kubestellar
 helm install kubestellar-core kubestellar/kubestellar-core --namespace=kubestellar
 ```
+
+## For more information on how to use [KubeStellar's Helm chart](https://github.com/kubestellar/kubestellar/tree/main/core-helm-chart)
