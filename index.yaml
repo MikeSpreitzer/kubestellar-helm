@@ -3,7 +3,7 @@ entries:
   kubestellar-core:
   - apiVersion: v2
     appVersion: v0.10.0
-    created: "2023-10-30T15:04:05Z07:00"
+    created: "2023-10-30T14:31:09.727185806-04:00"
     description: A Helm chart for KubeStellar Core deployment as a service
     digest: 6f42d9e850308f8852842cd23d1b03ae5be068440c60b488597e4122809dec1e
     icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
@@ -12,4 +12,4 @@ entries:
     urls:
     - https://helm.kubestellar.io/charts/kubestellar-core-3.tar.gz
     version: "3"
-generated: "2023-10-30T15:04:05Z07:00"
+generated: "2023-10-30T14:31:09.727185806-04:00"
