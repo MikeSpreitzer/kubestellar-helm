@@ -12,4 +12,48 @@ entries:
     urls:
     - https://helm.kubestellar.io/charts/kubestellar-core-6.tar.gz
     version: "6"
+  - apiVersion: v2
+    appVersion: v0.12.0
+    created: "2023-11-02T15:31:09.727185806-04:00"
+    description: A Helm chart for KubeStellar Core deployment as a service
+    digest: 95a4c51155fc312887c23cebf24db99d90ee1d1470360e90c30af81fe48ce06b
+    icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
+    name: kubestellar
+    type: application
+    urls:
+    - https://helm.kubestellar.io/charts/kubestellar-core-5.tar.gz
+    version: "5"
+  - apiVersion: v2
+    appVersion: v0.11.0
+    created: "2023-11-01T15:31:09.727185806-04:00"
+    description: A Helm chart for KubeStellar Core deployment as a service
+    digest: ad47df6519c1957f2458d8ed972484ef395371dfc54c68516b9a63bbc70141be
+    icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
+    name: kubestellar
+    type: application
+    urls:
+    - https://helm.kubestellar.io/charts/kubestellar-core-4.tar.gz
+    version: "4"
+  - apiVersion: v2
+    appVersion: v0.10.0
+    created: "2023-10-31T15:31:09.727185806-04:00"
+    description: A Helm chart for KubeStellar Core deployment as a service
+    digest: 6f42d9e850308f8852842cd23d1b03ae5be068440c60b488597e4122809dec1e
+    icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
+    name: kubestellar
+    type: application
+    urls:
+    - https://helm.kubestellar.io/charts/kubestellar-core-3.tar.gz
+    version: "3"
+  - apiVersion: v2
+    appVersion: v0.9.0
+    created: "2023-10-30T15:31:09.727185806-04:00"
+    description: A Helm chart for KubeStellar Core deployment as a service
+    digest: b7fe6f63c0f6bf3f1fc9cd60d88be91feb4fb58afc86fa7b80c7a793a02d9e15
+    icon: https://raw.githubusercontent.com/kubestellar/kubestellar/main/docs/favicons/favicon.ico
+    name: kubestellar
+    type: application
+    urls:
+    - https://helm.kubestellar.io/charts/kubestellar-core-1.tar.gz
+    version: "1"
 generated: "2023-11-02T15:31:09.727185806-04:00"
