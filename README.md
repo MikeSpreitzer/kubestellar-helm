@@ -81,3 +81,4 @@ wds1-system          deployment.apps/transport-controller             1/1     1 
 NAMESPACE         NAME                                   READY   AGE
 its1-system       statefulset.apps/vcluster              1/1     11h
 kubeflex-system   statefulset.apps/postgres-postgresql   1/1     22h
+```
