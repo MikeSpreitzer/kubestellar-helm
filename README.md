@@ -1,6 +1,9 @@
 # KubeStellar Helm Repository
 
-Hello world!  I'm a Helm repository for KubeStellar charts.  We currently support v0.8.0 and newer versions of our KubeStellar Core components.
+Hello world!  I'm a Helm repository for KubeStellar charts.  We currently support v0.23.0 and newer versions of our KubeStellar Core components.
+
+## Pre-Reqs
+See [Pre-Reqs](https://docs.kubestellar.io/release-0.23.0/direct/pre-reqs/)
 
 ## Get started
 
