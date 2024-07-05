@@ -20,7 +20,7 @@ The setup of KubStellar via the Core chart requires the existance of at least on
 to be used for the deployment of the chart.
 
 For convenience, a new local Kind cluster that satisfies the requirements for KubeStellar setup
-and that can be used to exercises the [examples](./examples.md) can be created with the following command:
+and that can be used for exercises in these [examples](https://docs.kubestellar.io/release-0.23.0/direct/examples/) can be created with the following command:
 
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/v${KUBESTELLAR_VERSION}/scripts/create-kind-cluster-with-SSL-passthrough.sh) --name kubeflex --port 9443
@@ -28,7 +28,7 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/v${KUBE
 
 ## Install KubeStellar Core chart
 
-A KubeStellar Core installation compatible with the common setup suitable for Common Setup described in the [examples](examples.md) could be achieved with the following command:
+A KubeStellar Core installation compatible with the common setup suitable for Common Setup described in the [examples](https://docs.kubestellar.io/release-0.23.0/direct/examples/) could be achieved with the following command:
 
 ```shell
 helm upgrade --install ks-core oci://ghcr.io/kubestellar/kubestellar/core-chart --version $KUBESTELLAR_VERSION \
